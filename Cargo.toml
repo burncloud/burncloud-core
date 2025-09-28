@@ -1,0 +1,16 @@
+[package]
+name = "burncloud-core"
+version = "0.1.9"
+edition = "2021"
+description = "Core functionality for the BurnCloud platform"
+license = "MIT"
+repository = "https://github.com/burncloud/burncloud"
+homepage = "https://github.com/burncloud/burncloud"
+authors = ["burncloud contributors"]
+keywords = ["burncloud", "core", "model-management"]
+categories = ["development-tools"]
+
+[dependencies]
+burncloud-common = "0.1.9"
+tokio = { version = "1.0", features = ["full"] }
+anyhow = "1.0"
